@@ -1,0 +1,223 @@
+*{
+     -moz-transition: all 0.3s;
+     -webkit-transition: all 0.3s;
+     transition: all 0.3s;
+ }
+
+body{
+    font-family: Montserrat, sans-serif;
+}
+
+.bg{
+    background: #202060;
+    background-image: linear-gradient(to right top, #602080, #53227b, #472376, #3b2370, #2f2269, #2f2269, #2f2269, #2f2269, #3b2370, #472376, #53227b, #602080);
+    position:fixed;
+    z-index: -1;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.vip-container{
+    max-width: 96rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+.navbar-container{
+
+}
+
+.landing{
+    margin-top: 30px;
+}
+
+.landing .logo{
+    /*color: #E37A66;
+    text-decoration: none;
+    border: 5px solid #E37A66;
+    font-size: 74px;
+    padding: 0px 20px;*/
+
+}
+
+.landing .logo img{
+    width: 100%;
+}
+
+.landing .header-buttons{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    float: right;
+}
+
+.landing .header-buttons a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.landing .header-buttons .login-btn{
+    color: #fff;
+    margin-right: 20px;
+}
+
+.landing .header-buttons .login-btn:hover{
+    color:#E37A66;
+}
+
+.landing .header-buttons .register-btn{
+    color: #202040;
+    background: #FFB55E;
+    background-image: linear-gradient(to right, #FFB55E, #E37A66);
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+
+.landing .header-buttons .register-btn:hover{
+    background: #FFB55E;
+}
+
+.landing .main-title {
+    color: #e37a66;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.landing .main-title span{
+    color: #fff;
+    padding-left: 10px;
+}
+
+.landing .shorten-form-group{
+    margin-top:30px;
+}
+
+.landing input[type=text]{
+    height: 75px;
+    border-radius: 100px 0px 0px 100px;
+    box-shadow: none;
+    border: none;
+    padding-left: 30px;
+    font-size: 26px;
+}
+
+.landing button[type=submit]{
+    color: #202040;
+    background: #FFB55E;
+    background-image: linear-gradient(to right, #FFB55E, #E37A66);
+    padding: 10px 20px;
+    border-radius: 0px 100px 100px 0px;
+    font-size: 20px;
+    border: 0px;
+    box-shadow: none;
+}
+
+.landing button[type=submit]:hover{
+    background:#FFB55E ;
+}
+
+.body{
+    background-color: #fff;
+    padding-top:75px
+}
+
+.body .hp-ad-img{
+    width: 100%;
+    box-shadow: 0 0 20px 3px #d4d4d4;
+}
+
+.body .hp-ad-title{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.marbot20{
+    margin-bottom:20px;
+}
+
+.marbot75{
+    margin-bottom:75px;
+}
+
+.features{
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 50px 0px;
+}
+
+.features h2{
+    font-weight: bold;
+    font-size: 36px;
+    padding: 40px 0px;
+}
+
+.features i{
+    font-size:42px;
+    padding:20px 0px;
+    color: #202060;
+}
+
+.features h3{
+    font-size:22px;
+    font-weight: bold;
+}
+
+.features p{
+    font-size: 14px;
+}
+
+.features .reg-btn{
+    color: #ffffff;
+    background: #202060;
+    background-image: linear-gradient(to right, #202060, #602080);
+    padding: 10px 20px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.features .reg-btn:hover{
+    background: #202060;
+}
+
+.stats{
+    color:#fff;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+footer{
+    background: #fff;
+    width: 100%;
+}
+
+footer .cr{
+    padding:20px 0px;
+}
+
+@media (max-width: 576px){
+
+    .landing .main-title{
+        display: none;
+    }
+
+    .landing .header-buttons{
+        float:unset;
+        justify-content: center;
+        margin:30px 0px
+    }
+
+    .landing button[type=submit]{
+        font-size:14px
+    }
+
+    .landing input[type=text]{
+        font-size:14px;
+        height:50px
+    }
+
+}
